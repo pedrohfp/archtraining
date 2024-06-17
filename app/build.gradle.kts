@@ -44,6 +44,7 @@ dependencies {
     implementation(libs.lifecycle.viewmodel)
     implementation(libs.coroutines.core)
     implementation(libs.coroutines.android)
+    implementation(libs.gson)
 
     testImplementation(libs.junit)
 
