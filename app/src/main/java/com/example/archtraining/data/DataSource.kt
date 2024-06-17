@@ -1,4 +1,4 @@
-package com.example.archtraining
+package com.example.archtraining.data
 
 import android.content.Context
 import com.google.gson.Gson

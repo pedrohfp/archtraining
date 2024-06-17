@@ -1,4 +1,4 @@
-package com.example.archtraining
+package com.example.archtraining.data
 
 data class PatternDTO(
     val name: String,

@@ -1,4 +1,4 @@
-package com.example.archtraining
+package com.example.archtraining.data
 
 class PatternRepository(private val dataSource: DataSource) {
     fun getPatternByName(name: String): PatternDTO? {
