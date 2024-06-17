@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Singleton",
+    "description": "Ensure a class only has one instance and provide a global point of access to it.",
+    "advantages": ["Controlled access to a single instance", "Reduced namespace usage"],
+    "disadvantages": ["Can be challenging to test", "May introduce hidden dependencies"],
+    "usage_examples": ["Logger classes", "Configuration classes"]
+  },
+  {
+    "name": "Factory Method",
+    "description": "Define an interface for creating an object, but let subclasses alter the type of objects that will be created.",
+    "advantages": ["Encapsulates object creation", "Promotes loose coupling"],
+    "disadvantages": ["Can be complex to implement"],
+    "usage_examples": ["GUI frameworks for creating buttons and other controls"]
+  }
+]
