@@ -1,4 +1,4 @@
-package com.example.archtraining
+package com.example.archtraining.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 import com.example.archtraining.data.PatternDTO
 import com.example.archtraining.data.PatternRepository
 
-class MainViewModel(private val repository: PatternRepository) : ViewModel() {
+class PatternViewModel(private val repository: PatternRepository) : ViewModel() {
 
     private val _pattern = MutableLiveData<PatternDTO?>()
     val pattern: LiveData<PatternDTO?> get() = _pattern
